@@ -1,0 +1,6 @@
+name = "Test App"
+packages = ["numpy"]
+
+[js_modules.main]
+"https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.module.js" = "three"
+"https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/controls/OrbitControls.js" = "oc"
